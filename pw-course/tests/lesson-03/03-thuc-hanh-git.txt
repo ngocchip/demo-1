@@ -1,6 +1,6 @@
 a. Chạy lệnh: git init
 - Local: 
-- Working directory: demo
+- Working directory: folder-demo
 - Staging:
 - Repository:
 
@@ -14,7 +14,7 @@ c. Thêm file .gitignore, thêm vào 2 dòng:
    i. fiel1.txt
    ii. oops/
 - Local: 
-- Working directory: .gitignore
+- Working directory: file1.txt. file2.txt, oops/file3.txt, .gitignore
 - Staging:
 - Repository:   
 
