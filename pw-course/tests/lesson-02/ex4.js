@@ -1,7 +1,7 @@
-const chieucao = 120;
+const chieuCao = 120;
 
-const cannanglytuong = (chieucao - 100)*9/10;
-const muccantoida = chieucao - 100;
-const mucantoithieu = (chieucao - 100)*8/10;
+const canNangLyTuong = (chieuCao - 100)*9/10;
+const mucCanToiDa = chieuCao - 100;
+const mucCanToiThieu = (chieuCao - 100)*8/10;
 
-console.log("Cân nặng lý tưởng:", cannanglytuong + "Mức cân nặng tối đa:", muccantoida + "Mức cân nặng tối thiểu:", mucantoithieu);
+console.log("Cân nặng lý tưởng:", canNangLyTuong + "Mức cân nặng tối đa:", mucCanToiDa + "Mức cân nặng tối thiểu:", mucCanToiThieu);
