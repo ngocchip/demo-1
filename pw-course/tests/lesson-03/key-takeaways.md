@@ -33,9 +33,28 @@ Cú pháp file ignore
 - PascalCase: đặt tên class
 
 ### 5. Javascript- Dùng console.log nâng cao
+```
 let myName = "Linh";
 
 console.log(`Toi la ${myName}`);
+```
 
 ### 6. Javascript- Object
-Refer file: demo-3/02-object.js
+```
+const myInfo = {
+    name: "Linh",
+    age: 20,
+    address: "Ha Noi",
+    "my address": "Ha Noi",
+    job: "Tester",
+    isLoveCoding: true,
+    codingClass: {
+        name: "Playwright",
+        level: "Beginer to Junior"
+    }
+};
+
+console.log(myInfo.name);
+console.log(myInfo.codingClass.name);
+```
+
