@@ -11,7 +11,7 @@ b. Tạo file file1.txt. file2.txt, oops/file3.txt
 - Repository:
 
 c. Thêm file .gitignore, thêm vào 2 dòng:
-   i. fiel1.txt
+   i. file1.txt
    ii. oops/
 - Local: 
 - Working directory: file1.txt. file2.txt, oops/file3.txt, .gitignore
@@ -20,12 +20,12 @@ c. Thêm file .gitignore, thêm vào 2 dòng:
 
 d. Chạy lệnh: git add .
 - Local: 
-- Working directory:
-- Staging: file1.txt. file2.txt, oops/file3.txt, .gitignore
+- Working directory: file1.txt. file2.txt, oops/file3.txt, .gitignore
+- Staging: file2.txt, .gitignore
 - Repository:   
 
 e. Chạy lệnh: git commit -m"init project"
 - Local: 
-- Working directory:
-- Staging: 
-- Repository: file1.txt. file2.txt, oops/file3.txt, .gitignore
+- Working directory: file1.txt. file2.txt, oops/file3.txt, .gitignore
+- Staging: file2.txt, .gitignore
+- Repository: file2.txt, .gitignore

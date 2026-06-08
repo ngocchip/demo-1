@@ -13,21 +13,25 @@ console.log(findMin(5, 10, 2));
 console.log(findMin(2, 11, 1));
 
 3. 
-function getTopStudents(students, threshold = 8) {
-    const topStudents = [
+const topStudents = [
         { "name": "Alice", "score": 9 },
         { "name": "Bob", "score": 7 },
         { "name": "Charlie", "score": 8 },
         { "name": "David", "score": 6 },
         { "name": "Eve", "score": 10 }
-    ]
-    for (let i = 0; i < topStudents.length; i++) {
-        if (topStudents[i].score >= threshold) {
-            console.log(topStudents[i].name);
+    ];
+function getTopStudents (students, threshold) {
+    let result =[];
+    for (let i = 0; i < students.length; i++) {
+        if (students[i].score >= threshold) {
+            result.push(students[i].name);
         }
     }
+    return result;
 }
-getTopStudents();
+
+let hsGioi = getTopStudents(topStudents, 8);
+console.log(hsGioi);
 
 4.
 function calculateInterest(principal, rate, years) {
