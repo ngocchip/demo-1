@@ -1,5 +1,4 @@
 import { test } from '@playwright/test';
-import { createPublicKey } from 'node:crypto';
 
 test('Personal notes page', async ({ page }) => {
     await test.step("Step 1: Them moi 10 note", async () => {
